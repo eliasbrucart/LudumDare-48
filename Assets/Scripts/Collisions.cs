@@ -15,7 +15,7 @@ public class Collisions : MonoBehaviour
         
     }
 
-    private void OnCollisionEnter2D(Collision2D collision)
+    void OnTriggerEnter2D(Collider2D collision)
     {
         Debug.Log("El player colisiono con: " + collision.gameObject.tag);
     }
