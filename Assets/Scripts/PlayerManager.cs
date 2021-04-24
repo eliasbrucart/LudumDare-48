@@ -35,52 +35,52 @@ public class PlayerManager : MonoBehaviour
         
     }
 
-    void SetHealth(float playerHealth)
+    public void SetHealth(float playerHealth)
     {
         health = playerHealth;
     }
 
-    float GetHealth()
+    public float GetHealth()
     {
         return health;
     }
 
-    void SetKey(float playerKeys)
+    public void SetKey(float playerKeys)
     {
         keys = playerKeys;
     }
 
-    float GetKeys()
+    public float GetKeys()
     {
         return keys;
     }
 
-    void SetSkill1(float playerSkill1)
+    public void SetSkill1(float playerSkill1)
     {
         skill1 = playerSkill1;
     }
 
-    float GetSkill1()
+    public float GetSkill1()
     {
         return skill1;
     }
 
-    void SetSkill2(float playerSkill2)
+    public void SetSkill2(float playerSkill2)
     {
         skill2 = playerSkill2;
     }
 
-    float GetSkill2()
+    public float GetSkill2()
     {
         return skill2;
     }
 
-    void SetSkill3(float playerSkill3)
+    public void SetSkill3(float playerSkill3)
     {
         skill3 = playerSkill3;
     }
 
-    float GetSkill3()
+    public float GetSkill3()
     {
         return skill3;
     }
