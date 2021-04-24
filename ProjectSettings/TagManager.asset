@@ -3,7 +3,15 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - ghost
+  - grave
+  - trap
+  - torch
+  - door
+  - grave item
+  - grave random
+  - grave key
   layers:
   - Default
   - TransparentFX
