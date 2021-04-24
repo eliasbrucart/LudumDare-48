@@ -25,10 +25,7 @@ public class PlayerManager : MonoBehaviour
             instancePlayerManager = this;
         }
     }
-    void Start()
-    {
-        
-    }
+   
 
     void Update()
     {
