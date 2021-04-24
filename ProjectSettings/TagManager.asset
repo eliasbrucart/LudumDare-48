@@ -12,6 +12,7 @@ TagManager:
   - grave item
   - grave random
   - grave key
+  - player
   layers:
   - Default
   - TransparentFX
@@ -21,8 +22,8 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
+  - bg
+  - player
   - 
   - 
   - 
