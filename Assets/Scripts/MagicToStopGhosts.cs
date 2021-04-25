@@ -11,6 +11,9 @@ public class MagicToStopGhosts : MonoBehaviour
     public float TimeToGoBackToMove;
     [SerializeField] float time;
     bool isActive = false;
+
+    public AudioSource freezeGhost;
+    public AudioSource noCharge;
     void Start()
     {
         manager = this.GetComponent<PlayerManager>();
@@ -26,6 +29,7 @@ public class MagicToStopGhosts : MonoBehaviour
         {
             if (manager.freezeGhost >= 1)
             {
+                freezeGhost.Play();
                 isActive = true;
                 manager.freezeGhost -= 1;
                 for (int i = 0; i < 10; i++)
@@ -33,9 +37,14 @@ public class MagicToStopGhosts : MonoBehaviour
                     Ghost[i].GetComponent<GhostMovment>().enabled = false;
                 }
             }
+            else
+            {
+                noCharge.Play();
+            }
         }
         if (time <= 0 && isActive == true)
         {
+            freezeGhost.Pause();
             isActive = false;
             time = TimeToGoBackToMove;
             for (int i = 0; i < 10; i++)

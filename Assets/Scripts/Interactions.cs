@@ -23,6 +23,13 @@ public class Interactions : MonoBehaviour
     public float porcentajeCargarAntorchaGrande;
     public float porcentajeCargarLiberarseDeTrampa;
     public float CantidadDeRecargasAlRecargarTodasLasMagias;
+
+    public AudioSource torch;
+    public AudioSource key;
+    public AudioSource trap;
+    public AudioSource grave;
+    public AudioSource noCharge;
+    public AudioSource recharge;
     void Start()
     {
         interactionCollision = this.GetComponent<Collisions>();
@@ -57,11 +64,17 @@ public class Interactions : MonoBehaviour
                         isActive = true;
                         manager.bigTorch -= 1;
                         fog.SetFloat("SphereColiderRadius", TorchRadius);
+                        torch.Play();
+                    }
+                    else
+                    {
+                        noCharge.Play();
                     }
                     break;
 
                 case "grave key":
-                       
+                    grave.Play();
+                    key.PlayDelayed(0.7f);
                         interactionCollision.ActualCollisionObject.SetActive(false);
                         isActive = true;
                         manager.keys++;
@@ -95,6 +108,7 @@ public class Interactions : MonoBehaviour
                     else if (queSale < porcentajeCargarTodosLosHechizos)
                     {
                         Debug.Log("Recargo magia");
+                        recharge.Play();
                         manager.smallTorch += CantidadDeRecargasAlRecargarTodasLasMagias;
                         manager.freezeGhost += CantidadDeRecargasAlRecargarTodasLasMagias;
                         manager.bigTorch += CantidadDeRecargasAlRecargarTodasLasMagias;
@@ -102,36 +116,44 @@ public class Interactions : MonoBehaviour
                     }
                     else if (queSale < porcentajeCargarAntorchaPequeña)
                     {
+                        recharge.Play();
                         Debug.Log("Recargo antorchaChica");
                         manager.smallTorch++;
                     }
                     else
                     if (queSale < porcentajeCargarCongelarFantasmas)
                     {
+                        recharge.Play();
                         Debug.Log("Recargo freeze");
                         manager.freezeGhost++;
                     }
                     else
                     if (queSale < porcentajeCargarAntorchaGrande)
                     {
+                        recharge.Play();
                         Debug.Log("Recargo AntorchaGrande");
                         manager.bigTorch++;
                     }
                     else
                     if (queSale < porcentajeCargarLiberarseDeTrampa)
                     {
+                        recharge.Play();
                         Debug.Log("Recargo LiberarseDeTrampa");
                         manager.liberateTrap++;
                     }
-
-
+                    grave.Play();
                     break;
 
                 case "trap":
                     if (manager.liberateTrap >= 1)
                     {
+                        trap.Play();
                         manager.liberateTrap -= 1;
                         this.GetComponent<PlayerMovment>().enabled = true;
+                    }
+                    else
+                    {
+                        noCharge.Play();
                     }
                     break;
 

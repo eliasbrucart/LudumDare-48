@@ -14,6 +14,9 @@ public class PlayerMagicAntorcha : MonoBehaviour
     [SerializeField] float time;
     bool isActive = false;
     float baseRadius;
+
+    public AudioSource torch;
+    public AudioSource noCharge;
     void Start()
     {
         manager = this.GetComponent<PlayerManager>();
@@ -33,6 +36,11 @@ public class PlayerMagicAntorcha : MonoBehaviour
                 isActive = true;
                 manager.smallTorch -= 1;
                 fog.SetFloat("SphereColiderRadius", SmallTorchRadius);
+                torch.Play();
+            }
+            else
+            {
+                noCharge.Play();
             }
         }
         if (time <= 0 && isActive == true)
