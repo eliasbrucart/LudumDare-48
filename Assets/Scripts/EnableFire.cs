@@ -6,6 +6,8 @@ public class EnableFire : MonoBehaviour
 {
     public PlayerManager pm;
     public Animator torchAnim;
+
+    bool CanBeStarted = false;
     void Start()
     {
         
@@ -14,22 +16,53 @@ public class EnableFire : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-    }
-
-    private void OnTriggerStay2D(Collider2D collision)
-    {
         if (Input.GetKeyDown(KeyCode.E))
         {
-            if (collision.gameObject == pm.gameObject)
+            if (CanBeStarted == true)
             {
+                Debug.Log("Apreta la e");
                 if (pm.smallTorch > 0)
                 {
+                    Debug.Log("tiene usos");
                     pm.smallTorch--;
                     StartTorch();
                 }
             }
         }
     }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.tag == "Player")
+        {
+            CanBeStarted = true;
+        }
+    }
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        if (collision.gameObject.tag == "Player")
+        {
+            CanBeStarted = false;
+        }
+    }
+   /* private void OnTriggerStay2D(Collider2D collision)
+    {
+        if (collision.gameObject.tag == "Player")
+        {
+            Debug.Log("Es player");
+            if (Input.GetKeyDown(KeyCode.E))
+            {
+                Debug.Log("Apreta la e");
+                if (pm.smallTorch > 0)
+                {
+                    Debug.Log("tiene usos");
+                    pm.smallTorch--;
+                    StartTorch();
+                }
+            }
+
+        }
+    }*/
 
     void StartTorch()
     {

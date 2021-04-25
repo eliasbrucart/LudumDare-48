@@ -43,7 +43,6 @@ public class Interactions : MonoBehaviour
     {
         actualCollision = interactionCollision.itemColliding;
 
-
         if (isActive == true)
         {
             time -= Time.deltaTime;
