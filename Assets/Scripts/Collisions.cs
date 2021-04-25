@@ -20,16 +20,8 @@ public class Collisions : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D collision)
     {
-
         itemColliding = collision.gameObject.tag;
-
-        /* if (collision.gameObject.tag == "grave key")
-         {
-             collision.GetComponent<SpriteRenderer>().enabled = false;
-             collision.GetComponent<BoxCollider2D>().enabled = false;
-         }*/
         ActualCollisionObject = collision.gameObject;
-
     }
     private void OnTriggerExit2D(Collider2D collision)
     {
