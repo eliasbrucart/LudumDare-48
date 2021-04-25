@@ -10,24 +10,28 @@ public class PlayerMovment : MonoBehaviour
         
     }
 
-    void Update()
+    private void Update()
+    {
+        
+    }
+
+    void FixedUpdate()
     {
         if (Input.GetKey(KeyCode.RightArrow))
         {
-            transform.position += Vector3.right * speed * Time.deltaTime;
+            transform.position += Vector3.right * speed * Time.fixedDeltaTime;
         }
         if (Input.GetKey(KeyCode.LeftArrow))
         {
-            transform.position += Vector3.left * speed * Time.deltaTime;
+            transform.position += Vector3.left * speed * Time.fixedDeltaTime;
         }
         if (Input.GetKey(KeyCode.UpArrow))
         {
-           // transform.position += Vector3.up * speed * Time.deltaTime;
-            transform.Translate (Vector3.up* speed *Time.deltaTime);
+            transform.position += Vector3.up * speed * Time.fixedDeltaTime;
         }
         if (Input.GetKey(KeyCode.DownArrow))
         {
-            transform.position += Vector3.down * speed * Time.deltaTime;
+            transform.position += Vector3.down * speed * Time.fixedDeltaTime;
         }
     }
 }
