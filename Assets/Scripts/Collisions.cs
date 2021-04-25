@@ -6,6 +6,8 @@ public class Collisions : MonoBehaviour
 {
     public string itemColliding;
 
+    public GameObject ActualCollisionObject;
+
     void Start()
     {
         
@@ -18,9 +20,15 @@ public class Collisions : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D collision)
     {
-        Debug.Log("El player colisiono con: " + collision.gameObject.tag);
 
         itemColliding = collision.gameObject.tag;
+
+        /* if (collision.gameObject.tag == "grave key")
+         {
+             collision.GetComponent<SpriteRenderer>().enabled = false;
+             collision.GetComponent<BoxCollider2D>().enabled = false;
+         }*/
+        ActualCollisionObject = collision.gameObject;
 
     }
     private void OnTriggerExit2D(Collider2D collision)

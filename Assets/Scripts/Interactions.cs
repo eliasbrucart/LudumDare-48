@@ -15,6 +15,16 @@ public class Interactions : MonoBehaviour
     bool isActive = false;
     float baseRadius;
 
+    public struct TumbaRandomPossibilities
+    {
+        public float porcentajeNada;
+        public float porcentajeFantasmaMalo;
+        public float porcentajeCargarHechizos;
+        public float porcentajeCargarAntorchaPequeña;
+        public float porcentajeCargarCongelarFantasmas;
+    }
+    public TumbaRandomPossibilities TumbaRandom;
+    
     void Start()
     {
         interactionCollision = this.GetComponent<Collisions>();
@@ -47,13 +57,66 @@ public class Interactions : MonoBehaviour
                     if (manager.bigTorch >= 1)
                     {
                         isActive = true;
-                        manager.smallTorch -= 1;
+                        manager.bigTorch -= 1;
                         fog.SetFloat("SphereColiderRadius", TorchRadius);
                     }
                     break;
 
-                case "grave":
+                case "grave key":
 
+                    if (manager.digGrave >= 1)
+                    {                       
+                        interactionCollision.ActualCollisionObject.SetActive(false);
+                        isActive = true;
+                        manager.digGrave -= 1;
+                        manager.keys++;
+                    }
+                    break;
+
+                case "grave random":
+                    Debug.Log("Entró");
+                    if (manager.digGrave >= 1)
+                    {
+                        interactionCollision.ActualCollisionObject.SetActive(false);
+                        isActive = true;
+                        manager.digGrave -= 1;
+                        int queSale = Random.Range(0, 99);
+
+                        Debug.Log("el random es" + queSale);
+
+
+                        TumbaRandom.porcentajeFantasmaMalo += TumbaRandom.porcentajeNada;
+                        TumbaRandom.porcentajeCargarHechizos += TumbaRandom.porcentajeFantasmaMalo;
+                        TumbaRandom.porcentajeCargarAntorchaPequeña += TumbaRandom.porcentajeCargarHechizos;
+                        TumbaRandom.porcentajeCargarCongelarFantasmas += TumbaRandom.porcentajeCargarAntorchaPequeña;                       
+                        
+                        
+                        if (queSale < TumbaRandom.porcentajeCargarCongelarFantasmas)
+                        {
+                            Debug.Log("Recargo freeze");
+                            manager.freezeGhost++;
+                        }
+                        else if (queSale < TumbaRandom.porcentajeCargarAntorchaPequeña)
+                        {
+                            Debug.Log("Recargo antorcha");
+                            manager.smallTorch++;
+                        }
+                        else if(queSale < TumbaRandom.porcentajeCargarHechizos)
+                        {
+                            Debug.Log("Recargo magia");
+                            manager.rechargeMagic++;
+                        }
+                        else if (queSale < TumbaRandom.porcentajeFantasmaMalo)
+                        {
+                            Debug.Log("hay que poner un fantasma y activarlo");
+                        }
+                        else
+                        if (queSale < TumbaRandom.porcentajeNada)
+                        {
+                            Debug.Log("dio nada");
+                        }
+
+                    }
                     break;
 
                 case "trap":
