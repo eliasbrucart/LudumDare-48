@@ -7,7 +7,6 @@ public class Interactions : MonoBehaviour
 {
     string actualCollision;
     Collisions interactionCollision;
-
     public VisualEffect fog;
     PlayerManager manager;
     public float TimeToGoBackToNormalSize;
@@ -58,7 +57,11 @@ public class Interactions : MonoBehaviour
                     break;
 
                 case "trap":
-
+                    if (manager.liberateTrap >= 1)
+                    {
+                        manager.liberateTrap -= 1;
+                        this.GetComponent<PlayerMovment>().enabled = true;
+                    }
                     break;
 
                 default:
