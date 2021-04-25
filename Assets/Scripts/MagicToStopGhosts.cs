@@ -23,10 +23,10 @@ public class MagicToStopGhosts : MonoBehaviour
         }
         if (Input.GetKeyDown(KeyCode.Alpha2))
         {
-            if (manager.GetSkill2() >= 1)
+            if (manager.freezeGhost >= 1)
             {
                 isActive = true;
-                manager.SetSkill2(manager.GetSkill2() - 1);
+                manager.freezeGhost -= 1;
                 for (int i = 0; i < 10; i++)
                 {
                     Ghost[i].GetComponent<GhostMovment>().enabled = false;

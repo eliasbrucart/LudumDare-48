@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Collisions : MonoBehaviour
 {
+    public string itemColliding;
 
     void Start()
     {
@@ -18,5 +19,12 @@ public class Collisions : MonoBehaviour
     void OnTriggerEnter2D(Collider2D collision)
     {
         Debug.Log("El player colisiono con: " + collision.gameObject.tag);
+
+        itemColliding = collision.gameObject.tag;
+
+    }
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        itemColliding = "";
     }
 }

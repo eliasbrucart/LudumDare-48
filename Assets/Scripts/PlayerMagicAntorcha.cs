@@ -28,10 +28,10 @@ public class PlayerMagicAntorcha : MonoBehaviour
         }
         if (Input.GetKeyDown(KeyCode.Alpha1))
         {           
-            if (manager.GetSkill1() >= 1)
+            if (manager.smallTorch >= 1)
             {
                 isActive = true;
-                manager.SetSkill1(manager.GetSkill1() - 1);
+                manager.smallTorch -= 1;
                 fog.SetFloat("SphereColiderRadius", SmallTorchRadius);
             }
         }

@@ -8,11 +8,15 @@ public class PlayerManager : MonoBehaviour
 
     public static PlayerManager Instance { get { return instancePlayerManager; } }
 
-    [SerializeField] private float health;
-    [SerializeField] private float keys;
-    [SerializeField] private float skill1;
-    [SerializeField] private float skill2;
-    [SerializeField] private float skill3;
+    [SerializeField] public float health { get; set; }
+    [SerializeField] public float keys { get; set; }
+    [SerializeField] public float smallTorch { get; set; }
+    [SerializeField] public float freezeGhost { get; set; }
+    [SerializeField] public float rechargeMagic { get; set; }
+    [SerializeField] public float bigTorch { get; set; }
+    [SerializeField] public float digGrave { get; set; }
+    [SerializeField] public float liberateTrap { get; set; }
+
 
     private void Awake()
     {
@@ -32,53 +36,4 @@ public class PlayerManager : MonoBehaviour
         
     }
 
-    public void SetHealth(float playerHealth)
-    {
-        health = playerHealth;
-    }
-
-    public float GetHealth()
-    {
-        return health;
-    }
-
-    public void SetKey(float playerKeys)
-    {
-        keys = playerKeys;
-    }
-
-    public float GetKeys()
-    {
-        return keys;
-    }
-
-    public void SetSkill1(float playerSkill1)
-    {
-        skill1 = playerSkill1;
-    }
-
-    public float GetSkill1()
-    {
-        return skill1;
-    }
-
-    public void SetSkill2(float playerSkill2)
-    {
-        skill2 = playerSkill2;
-    }
-
-    public float GetSkill2()
-    {
-        return skill2;
-    }
-
-    public void SetSkill3(float playerSkill3)
-    {
-        skill3 = playerSkill3;
-    }
-
-    public float GetSkill3()
-    {
-        return skill3;
-    }
 }
