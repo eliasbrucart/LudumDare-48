@@ -24,10 +24,5 @@ public class Collisions : MonoBehaviour
     private void OnTriggerExit2D(Collider2D collision)
     {
         itemColliding = "";
-        if (collision.gameObject.tag == "trap")
-        {
-            collision.enabled = false;
-            collision.GetComponent<SpriteRenderer>().enabled = false;
-        }
     }
 }

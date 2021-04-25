@@ -24,4 +24,13 @@ public class ActivateTrap : MonoBehaviour
         collision.GetComponentInParent<PlayerMovment>().enabled = false;
         }
     }
+
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        if (collision.gameObject.tag == "player")
+        {
+            this.enabled = false;
+            this.GetComponent<SpriteRenderer>().enabled = false;
+        }
+    }
 }
