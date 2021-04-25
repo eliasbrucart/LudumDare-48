@@ -8,14 +8,14 @@ public class PlayerManager : MonoBehaviour
 
     public static PlayerManager Instance { get { return instancePlayerManager; } }
 
-    [SerializeField] public float health { get; set; }
-    [SerializeField] public float keys { get; set; }
-    [SerializeField] public float smallTorch { get; set; }
-    [SerializeField] public float freezeGhost { get; set; }
-    [SerializeField] public float rechargeMagic { get; set; }
-    [SerializeField] public float bigTorch { get; set; }
-    [SerializeField] public float digGrave { get; set; }
-    [SerializeField] public float liberateTrap { get; set; }
+    public float health;
+    public float keys;
+    public float smallTorch;
+    public float freezeGhost;
+    public float rechargeMagic;
+    public float bigTorch;
+    public float digGrave;
+    public float liberateTrap;
 
 
     private void Awake()
