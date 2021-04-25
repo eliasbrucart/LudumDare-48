@@ -13,6 +13,7 @@ TagManager:
   - grave random
   - grave key
   - player
+  - NPC
   layers:
   - Default
   - TransparentFX
@@ -24,8 +25,8 @@ TagManager:
   - 
   - bg
   - player
-  - 
-  - 
+  - Trigger
+  - Collision
   - 
   - 
   - 
