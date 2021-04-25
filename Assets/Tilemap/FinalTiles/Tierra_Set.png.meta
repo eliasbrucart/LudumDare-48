@@ -1,0 +1,1004 @@
+fileFormatVersion: 2
+guid: 71d1501aa7a470e4a8e89f2406f08a8f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1058464805318079718
+    second: Tierra_Set_0
+  - first:
+      213: -7968308770627000638
+    second: Tierra_Set_1
+  - first:
+      213: 5880416993445268092
+    second: Tierra_Set_2
+  - first:
+      213: 5184923533745927655
+    second: Tierra_Set_3
+  - first:
+      213: -9133041956565058597
+    second: Tierra_Set_4
+  - first:
+      213: 1766436967387961155
+    second: Tierra_Set_5
+  - first:
+      213: 4904296531093625650
+    second: Tierra_Set_6
+  - first:
+      213: -3711044882716154339
+    second: Tierra_Set_7
+  - first:
+      213: -3275007849852720087
+    second: Tierra_Set_8
+  - first:
+      213: -7243876954382995014
+    second: Tierra_Set_9
+  - first:
+      213: -4368307971445292345
+    second: Tierra_Set_10
+  - first:
+      213: -4352936813222188295
+    second: Tierra_Set_11
+  - first:
+      213: -3873297003854210244
+    second: Tierra_Set_12
+  - first:
+      213: 263769259220231842
+    second: Tierra_Set_13
+  - first:
+      213: -1631561024468704195
+    second: Tierra_Set_14
+  - first:
+      213: -3101686000761527284
+    second: Tierra_Set_15
+  - first:
+      213: 4619042740111501807
+    second: Tierra_Set_16
+  - first:
+      213: 4452276997240767066
+    second: Tierra_Set_17
+  - first:
+      213: -3561528278091318480
+    second: Tierra_Set_18
+  - first:
+      213: -50530023095403587
+    second: Tierra_Set_19
+  - first:
+      213: -3981032020765867421
+    second: Tierra_Set_20
+  - first:
+      213: 5526752703466625323
+    second: Tierra_Set_21
+  - first:
+      213: 6761372768420881280
+    second: Tierra_Set_22
+  - first:
+      213: 3217817654939832365
+    second: Tierra_Set_23
+  - first:
+      213: 8122586614441034582
+    second: Tierra_Set_24
+  - first:
+      213: 1248650320172598490
+    second: Tierra_Set_25
+  - first:
+      213: 5000488909482048050
+    second: Tierra_Set_26
+  - first:
+      213: -7240853558654727860
+    second: Tierra_Set_27
+  - first:
+      213: 2816360254874265664
+    second: Tierra_Set_28
+  - first:
+      213: -1087394052458959006
+    second: Tierra_Set_29
+  - first:
+      213: 5010415976691239545
+    second: Tierra_Set_30
+  - first:
+      213: 4038899773448372642
+    second: Tierra_Set_31
+  - first:
+      213: -8717321516198850709
+    second: Tierra_Set_32
+  - first:
+      213: -3568667027326301147
+    second: Tierra_Set_33
+  - first:
+      213: 7582363004119324566
+    second: Tierra_Set_34
+  - first:
+      213: -6783905460665832595
+    second: Tierra_Set_35
+  - first:
+      213: -5394341065263508299
+    second: Tierra_Set_36
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Tierra_Set_0
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 281
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e4bc38e12c60be00800000000000000
+      internalID: 1058464805318079718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tierra_Set_1
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 281
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c6e52a1461ea6190800000000000000
+      internalID: -7968308770627000638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tierra_Set_2
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 281
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7ac97989107b9150800000000000000
+      internalID: 5880416993445268092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tierra_Set_3
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 281
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e53d78ab7c84f740800000000000000
+      internalID: 5184923533745927655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tierra_Set_4
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 281
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdb733cbabae04180800000000000000
+      internalID: -9133041956565058597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tierra_Set_5
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 281
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34717471015a38810800000000000000
+      internalID: 1766436967387961155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tierra_Set_6
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 281
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23b140106bf8f0440800000000000000
+      internalID: 4904296531093625650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tierra_Set_7
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 281
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d162c245758bf7cc0800000000000000
+      internalID: -3711044882716154339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tierra_Set_8
+      rect:
+        serializedVersion: 2
+        x: 755
+        y: 281
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92ca9e856b5dc82d0800000000000000
+      internalID: -3275007849852720087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tierra_Set_9
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 189
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab1fc592a44987b90800000000000000
+      internalID: -7243876954382995014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tierra_Set_10
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 189
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c20f745b07a063c0800000000000000
+      internalID: -4368307971445292345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tierra_Set_11
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 189
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9faab2ef7034793c0800000000000000
+      internalID: -4352936813222188295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tierra_Set_12
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 189
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3b5fa785e84f3ac0800000000000000
+      internalID: -3873297003854210244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tierra_Set_13
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 189
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a66d766eb819a300800000000000000
+      internalID: 263769259220231842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tierra_Set_14
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 189
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d34ab2384e78b59e0800000000000000
+      internalID: -1631561024468704195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tierra_Set_15
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 189
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c04aec7040994f4d0800000000000000
+      internalID: -3101686000761527284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tierra_Set_16
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 189
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe961be36e22a1040800000000000000
+      internalID: 4619042740111501807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tierra_Set_17
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 103
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a52cd2ef65aa9cd30800000000000000
+      internalID: 4452276997240767066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tierra_Set_18
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 103
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03bbbde96e8e29ec0800000000000000
+      internalID: -3561528278091318480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tierra_Set_19
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 103
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbbf7e2363b7c4ff0800000000000000
+      internalID: -50530023095403587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tierra_Set_20
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 103
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3628bc2387880c8c0800000000000000
+      internalID: -3981032020765867421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tierra_Set_21
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 103
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b29de834d48f2bc40800000000000000
+      internalID: 5526752703466625323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tierra_Set_22
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 103
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 083e9b7a5b835dd50800000000000000
+      internalID: 6761372768420881280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tierra_Set_23
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 103
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d205ba2cb1cf7ac20800000000000000
+      internalID: 3217817654939832365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tierra_Set_24
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 103
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 653c9139d7939b070800000000000000
+      internalID: 8122586614441034582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tierra_Set_25
+      rect:
+        serializedVersion: 2
+        x: 754
+        y: 103
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad4c09eb9d8145110800000000000000
+      internalID: 1248650320172598490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tierra_Set_26
+      rect:
+        serializedVersion: 2
+        x: 845
+        y: 103
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23a35f06b2e456540800000000000000
+      internalID: 5000488909482048050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tierra_Set_27
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 11
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4903c55d02538b90800000000000000
+      internalID: -7240853558654727860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tierra_Set_28
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 11
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0482f47eab8b51720800000000000000
+      internalID: 2816360254874265664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tierra_Set_29
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 11
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26faf4cdedcc8e0f0800000000000000
+      internalID: -1087394052458959006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tierra_Set_30
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 11
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97a8f93d8c2988540800000000000000
+      internalID: 5010415976691239545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tierra_Set_31
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 11
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a1cbc7e1fd0d0830800000000000000
+      internalID: 4038899773448372642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tierra_Set_32
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 11
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6f0912744ad50780800000000000000
+      internalID: -8717321516198850709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tierra_Set_33
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 11
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52c019a0f3c897ec0800000000000000
+      internalID: -3568667027326301147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tierra_Set_34
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 11
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 697989aaaf6f93960800000000000000
+      internalID: 7582363004119324566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tierra_Set_35
+      rect:
+        serializedVersion: 2
+        x: 753
+        y: 11
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6b2e2b1de9bad1a0800000000000000
+      internalID: -6783905460665832595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tierra_Set_36
+      rect:
+        serializedVersion: 2
+        x: 844
+        y: 11
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b49aafa1637325b0800000000000000
+      internalID: -5394341065263508299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
