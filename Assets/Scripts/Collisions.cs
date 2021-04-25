@@ -8,16 +8,6 @@ public class Collisions : MonoBehaviour
 
     public GameObject ActualCollisionObject;
 
-    void Start()
-    {
-        
-    }
-
-    void Update()
-    {
-        
-    }
-
     void OnTriggerEnter2D(Collider2D collision)
     {
 
