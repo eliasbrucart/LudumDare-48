@@ -12,9 +12,7 @@ public class PlayerManager : MonoBehaviour
     public float keys;
     public float smallTorch;
     public float freezeGhost;
-    public float rechargeMagic;
     public float bigTorch;
-    public float digGrave;
     public float liberateTrap;
 
 
