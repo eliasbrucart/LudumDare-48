@@ -10,6 +10,7 @@ public class ScenesManager : MonoBehaviour
     public static ScenesManager Instance { get { return instanceSceneManager; } }
 
     [SerializeField]private string actualScene;
+    private float timeToChangeScene;
 
     private void Awake()
     {
@@ -30,7 +31,9 @@ public class ScenesManager : MonoBehaviour
 
     void Update()
     {
+        timeToChangeScene += Time.deltaTime;
         GoToMenu();
+        TransitionToPlay();
     }
 
     public void GoToMenu()
@@ -40,6 +43,18 @@ public class ScenesManager : MonoBehaviour
             if (Input.GetKeyDown(KeyCode.Escape) || Input.GetKeyDown(KeyCode.Space))
             {
                 SceneManager.LoadScene("Menu");
+            }
+        }
+    }
+
+    private void TransitionToPlay()
+    {
+        if (actualScene == "Intro")
+        {
+            if (timeToChangeScene >= 3.0f)
+            {
+                SceneManager.LoadScene("Level 1");
+                timeToChangeScene = 0.0f;
             }
         }
     }
