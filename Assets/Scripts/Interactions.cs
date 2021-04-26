@@ -30,6 +30,8 @@ public class Interactions : MonoBehaviour
     public AudioSource grave;
     public AudioSource noCharge;
     public AudioSource recharge;
+
+    public GameObject textBox;
     void Start()
     {
         interactionCollision = this.GetComponent<Collisions>();
@@ -156,9 +158,25 @@ public class Interactions : MonoBehaviour
                     }
                     break;
 
+                case "NPC":
+
+                    textBox.SetActive(true);
+
+                    break;
+
+                case "door":
+
+                    Debug.Log("cambio de lvl");
+
+                    break;
+
                 default:
                     break;
             }
+        }
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            textBox.SetActive(false);
         }
     }
 }

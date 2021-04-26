@@ -113,7 +113,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -121,27 +121,6 @@ TextureImporter:
       bones: []
       spriteID: d9dbbd5d2deb696c0800000000000000
       internalID: -4136909394952864355
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Puertas_1
-      rect:
-        serializedVersion: 2
-        x: 95
-        y: 5
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5655c36088212ba50800000000000000
-      internalID: 6535306384697480549
       vertices: []
       indices: 
       edges: []

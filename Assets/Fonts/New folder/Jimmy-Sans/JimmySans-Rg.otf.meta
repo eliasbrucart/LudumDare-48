@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: e7401d17a60962847848a3fc2792f5ce
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Jimmy Sans
+  fontNames:
+  - Jimmy Sans
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: d2bb7730b3ce6aa4fab6ade056b25b4c, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

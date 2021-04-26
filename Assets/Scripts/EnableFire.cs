@@ -45,24 +45,6 @@ public class EnableFire : MonoBehaviour
             CanBeStarted = false;
         }
     }
-   /* private void OnTriggerStay2D(Collider2D collision)
-    {
-        if (collision.gameObject.tag == "Player")
-        {
-            Debug.Log("Es player");
-            if (Input.GetKeyDown(KeyCode.E))
-            {
-                Debug.Log("Apreta la e");
-                if (pm.smallTorch > 0)
-                {
-                    Debug.Log("tiene usos");
-                    pm.smallTorch--;
-                    StartTorch();
-                }
-            }
-
-        }
-    }*/
 
     void StartTorch()
     {

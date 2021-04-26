@@ -13,6 +13,10 @@ public class UIManager : MonoBehaviour
     public Text bigTorch;
     public Text digGrave;
     public Text liberateTrap;
+
+    public Text NPCAdvice;
+
+    public NPC npc;
     void Start()
     {
         
@@ -26,5 +30,14 @@ public class UIManager : MonoBehaviour
         freezeGhost.text = "freeze ghost: " + PlayerManager.instancePlayerManager.freezeGhost;
         bigTorch.text = "big torch: " + PlayerManager.instancePlayerManager.bigTorch;
         liberateTrap.text = "liberate trap: " + PlayerManager.instancePlayerManager.liberateTrap;
+
+        if (npc.canListen == true)
+        {
+            NPCAdvice.text = npc.texto;
+        }
+        else 
+        {
+            NPCAdvice.text = "";
+        }
     }
 }
