@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
+
 
 public class PlayerManager : MonoBehaviour
 {
@@ -17,7 +19,7 @@ public class PlayerManager : MonoBehaviour
     public float liberateTrap;
 
     public Image keyImage;
-
+    [SerializeField] private string actualScene;
 
     private void Awake()
     {
@@ -38,6 +40,11 @@ public class PlayerManager : MonoBehaviour
             keyImage.gameObject.SetActive(true);
         else
             keyImage.gameObject.SetActive(false);
+
+        if(health <= 0)
+        {
+            SceneManager.LoadScene(actualScene);
+        }
     }
 
 }
