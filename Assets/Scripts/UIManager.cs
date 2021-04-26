@@ -24,11 +24,11 @@ public class UIManager : MonoBehaviour
 
     void Update()
     {
-        healt.text = "health: " + PlayerManager.instancePlayerManager.health;
+        healt.text = "" + PlayerManager.instancePlayerManager.health;
         Keys.text = "keys: " + PlayerManager.instancePlayerManager.keys;
-        smallTorch.text = "small torch: " + PlayerManager.instancePlayerManager.smallTorch;
-        freezeGhost.text = "freeze ghost: " + PlayerManager.instancePlayerManager.freezeGhost;
-        bigTorch.text = "big torch: " + PlayerManager.instancePlayerManager.bigTorch;
+        smallTorch.text = "" + PlayerManager.instancePlayerManager.smallTorch;
+        freezeGhost.text = "" + PlayerManager.instancePlayerManager.freezeGhost;
+        bigTorch.text = "" + PlayerManager.instancePlayerManager.bigTorch;
         liberateTrap.text = "liberate trap: " + PlayerManager.instancePlayerManager.liberateTrap;
 
         if (npc.canListen == true)

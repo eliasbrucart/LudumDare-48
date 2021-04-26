@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PlayerManager : MonoBehaviour
 {
@@ -14,6 +15,8 @@ public class PlayerManager : MonoBehaviour
     public float freezeGhost;
     public float bigTorch;
     public float liberateTrap;
+
+    public Image keyImage;
 
 
     private void Awake()
@@ -31,7 +34,10 @@ public class PlayerManager : MonoBehaviour
 
     void Update()
     {
-        
+        if (keys >= 1)
+            keyImage.gameObject.SetActive(true);
+        else
+            keyImage.gameObject.SetActive(false);
     }
 
 }
