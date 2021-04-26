@@ -619,7 +619,6 @@ MonoBehaviour:
   smallTorch: 2
   freezeGhost: 2
   bigTorch: 2
-  liberateTrap: 2
   keyImage: {fileID: 0}
   actualScene: 
 --- !u!114 &108916775688632693
@@ -672,6 +671,7 @@ MonoBehaviour:
   itemColliding: 
   GhostDamage: 10
   ActualCollisionObject: {fileID: 0}
+  NextLvl: 
 --- !u!114 &108916775688632689
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -688,7 +688,7 @@ MonoBehaviour:
   TimeToGoBackToNormalSize: 1
   time: 1
   TorchRadius: 100
-  Fantasma: {fileID: 5158477024217813765, guid: 57bdedc9a68e53041b27d7cc7672fa31,
+  Fantasma: {fileID: 6711555869933064140, guid: 5a4270b6fc8829b468603a89d41f62a3,
     type: 3}
   porcentajeNada: 40
   porcentajeFantasmaMalo: 25
@@ -696,7 +696,6 @@ MonoBehaviour:
   "porcentajeCargarAntorchaPeque\xF1a": 5
   porcentajeCargarCongelarFantasmas: 5
   porcentajeCargarAntorchaGrande: 5
-  porcentajeCargarLiberarseDeTrampa: 5
   CantidadDeRecargasAlRecargarTodasLasMagias: 5
   torch: {fileID: 0}
   key: {fileID: 0}
