@@ -35,7 +35,7 @@ public class ScenesManager : MonoBehaviour
 
     public void GoToMenu()
     {
-        if(actualScene == "Credits" || actualScene == "HowToPlay")
+        if(actualScene == "Credits" || actualScene == "HowToPlay" || actualScene == "FinalScene")
         {
             if (Input.GetKeyDown(KeyCode.Escape) || Input.GetKeyDown(KeyCode.Space))
             {
