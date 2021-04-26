@@ -8,6 +8,8 @@ public class Collisions : MonoBehaviour
     public float GhostDamage = 10;
     public GameObject ActualCollisionObject;
 
+    public string nextLvl;
+
     void OnTriggerEnter2D(Collider2D collision)
     {
         itemColliding = collision.gameObject.tag;
@@ -17,6 +19,7 @@ public class Collisions : MonoBehaviour
         {
             if( PlayerManager.instancePlayerManager.keys >= 1)
             {
+                ScenesManager.instanceSceneManager.ChangeScene(nextLvl);
                 Debug.Log("End LVL");
             }
         }
