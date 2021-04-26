@@ -5,7 +5,7 @@ using UnityEngine;
 public class Collisions : MonoBehaviour
 {
     public string itemColliding;
-
+    public float GhostDamage = 10;
     public GameObject ActualCollisionObject;
 
     void OnTriggerEnter2D(Collider2D collision)
@@ -24,7 +24,7 @@ public class Collisions : MonoBehaviour
         if (collision.gameObject.tag == ("ghost"))
         {
             Debug.Log("Choca con fantasma");
-            PlayerManager.instancePlayerManager.health -= 10;
+            PlayerManager.instancePlayerManager.health -= GhostDamage;
             
         }
 
