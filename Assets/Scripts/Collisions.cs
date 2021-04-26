@@ -21,6 +21,12 @@ public class Collisions : MonoBehaviour
             }
         }
 
+        if (collision.gameObject.tag == ("ghost"))
+        {
+            PlayerManager.instancePlayerManager.health--;
+            
+        }
+
     }
     private void OnTriggerExit2D(Collider2D collision)
     {
