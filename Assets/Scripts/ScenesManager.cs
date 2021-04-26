@@ -58,7 +58,7 @@ public class ScenesManager : MonoBehaviour
     {
         if (actualScene == "Intro")
         {
-            if (timeToChangeScene >= 3.0f)
+            if (timeToChangeScene >= 10.0f)
             {
                 timeToChangeScene = 0.0f;
                 SceneManager.LoadScene("Level 1");              
