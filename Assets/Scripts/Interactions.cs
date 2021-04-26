@@ -111,7 +111,8 @@ public class Interactions : MonoBehaviour
                     }
                     else if (ThisTimeRandom < porcentajeFantasmaMalo)
                     {
-                        Instantiate(Fantasma);                      
+                        Vector3 FantasmaSpawn =  this.transform.position + new Vector3(0,2.0f, 0);
+                        Instantiate(Fantasma, FantasmaSpawn, Quaternion.identity);                      
                     }
                     else if (ThisTimeRandom < porcentajeCargarTodosLosHechizos)
                     {
@@ -167,6 +168,7 @@ public class Interactions : MonoBehaviour
 
                 case "NPC":
 
+                    Debug.Log("hola npc");
                     textBox.SetActive(true);
 
                     break;

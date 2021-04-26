@@ -612,7 +612,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: FantasminToTest (2)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: -8127911342276745508, guid: 57bdedc9a68e53041b27d7cc7672fa31, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 57bdedc9a68e53041b27d7cc7672fa31, type: 3}
 --- !u!1001 &104479849
 PrefabInstance:
@@ -630,6 +631,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 108916775601108469, guid: 573383ee32e728042a06fcc3d3210d62,
+        type: 3}
+      propertyPath: m_PropertySheet.m_Float.m_Array.Array.data[0].m_Value
+      value: 800
+      objectReference: {fileID: 0}
+    - target: {fileID: 108916775601108469, guid: 573383ee32e728042a06fcc3d3210d62,
+        type: 3}
+      propertyPath: m_PropertySheet.m_Vector3f.m_Array.Array.data[3].m_Value.x
+      value: 40
       objectReference: {fileID: 0}
     - target: {fileID: 108916775601108470, guid: 573383ee32e728042a06fcc3d3210d62,
         type: 3}
@@ -691,6 +702,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 108916775688632688, guid: 573383ee32e728042a06fcc3d3210d62,
+        type: 3}
+      propertyPath: NextLvl
+      value: FinalScene
+      objectReference: {fileID: 0}
     - target: {fileID: 108916775688632689, guid: 573383ee32e728042a06fcc3d3210d62,
         type: 3}
       propertyPath: key
@@ -751,6 +767,11 @@ PrefabInstance:
       propertyPath: keyImage
       value: 
       objectReference: {fileID: 444598989}
+    - target: {fileID: 108916775688632695, guid: 573383ee32e728042a06fcc3d3210d62,
+        type: 3}
+      propertyPath: actualScene
+      value: Level2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 573383ee32e728042a06fcc3d3210d62, type: 3}
 --- !u!114 &104479850 stripped
@@ -759,7 +780,7 @@ MonoBehaviour:
     type: 3}
   m_PrefabInstance: {fileID: 104479849}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 1445308702}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 240a30e6fd1f5104687e1b555645312f, type: 3}
@@ -1524,6 +1545,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 114505321708770890, guid: b5c0eb6533145b44a81eea6fbcee9ea0,
+        type: 3}
+      propertyPath: Player
+      value: 
+      objectReference: {fileID: 1445308702}
     - target: {fileID: 114505321708770893, guid: b5c0eb6533145b44a81eea6fbcee9ea0,
         type: 3}
       propertyPath: m_Name
@@ -1679,7 +1705,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: FantasminToTest (1)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: -8127911342276745508, guid: 57bdedc9a68e53041b27d7cc7672fa31, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 57bdedc9a68e53041b27d7cc7672fa31, type: 3}
 --- !u!1001 &453612480
 PrefabInstance:
@@ -3542,7 +3569,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: FantasminToTest
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: -8127911342276745508, guid: 57bdedc9a68e53041b27d7cc7672fa31, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 57bdedc9a68e53041b27d7cc7672fa31, type: 3}
 --- !u!1001 &935077372
 PrefabInstance:
@@ -4721,6 +4749,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 14e82b5158922194f901b266fbb47a2a, type: 3}
+--- !u!1 &1445308702 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 108916775688632690, guid: 573383ee32e728042a06fcc3d3210d62,
+    type: 3}
+  m_PrefabInstance: {fileID: 104479849}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1461991501
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6260,7 +6294,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: FantasminToTest (3)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: -8127911342276745508, guid: 57bdedc9a68e53041b27d7cc7672fa31, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 57bdedc9a68e53041b27d7cc7672fa31, type: 3}
 --- !u!1001 &1785886359
 PrefabInstance:
