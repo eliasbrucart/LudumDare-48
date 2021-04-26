@@ -48,7 +48,7 @@ public class MagicToStopGhosts : MonoBehaviour
             freezeGhost.Pause();
             isActive = false;
             time = TimeToGoBackToMove;
-            for (int i = 0; i < 10; i++)
+            for (int i = 0; i < Ghost.Length; i++)
             {
                 Ghost[i].GetComponent<GhostMovment>().enabled = true;
             }

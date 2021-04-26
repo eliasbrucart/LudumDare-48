@@ -1,7 +1,67 @@
 fileFormatVersion: 2
 guid: 3f2532cacbaceb64fbdccd67fe5f7a0f
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -1271020213401777197
+    second: Grilla_de_movimiento_0
+  - first:
+      213: 912413900763235736
+    second: Grilla_de_movimiento_1
+  - first:
+      213: 3770903607490021674
+    second: Grilla_de_movimiento_2
+  - first:
+      213: -779480448025129934
+    second: Grilla_de_movimiento_3
+  - first:
+      213: -6465635666316284104
+    second: Grilla_de_movimiento_4
+  - first:
+      213: -7351593978610877034
+    second: Grilla_de_movimiento_5
+  - first:
+      213: -8091584971776766341
+    second: Grilla_de_movimiento_6
+  - first:
+      213: -8321664733051707295
+    second: Grilla_de_movimiento_7
+  - first:
+      213: 6283520683589979333
+    second: Grilla_de_movimiento_8
+  - first:
+      213: 6535625370071832385
+    second: Grilla_de_movimiento_9
+  - first:
+      213: -6474306369336553422
+    second: Grilla_de_movimiento_10
+  - first:
+      213: -8030271655080201368
+    second: Grilla_de_movimiento_11
+  - first:
+      213: 4083963134742676927
+    second: Grilla_de_movimiento_12
+  - first:
+      213: 820199066679926043
+    second: Grilla_de_movimiento_13
+  - first:
+      213: 3070418430919278281
+    second: Grilla_de_movimiento_14
+  - first:
+      213: -9155657664776005106
+    second: Grilla_de_movimiento_15
+  - first:
+      213: -6769320994870754408
+    second: Grilla_de_movimiento_16
+  - first:
+      213: 2454004695768459036
+    second: Grilla_de_movimiento_17
+  - first:
+      213: 4920075285502196064
+    second: Grilla_de_movimiento_18
+  - first:
+      213: 2396797743617201517
+    second: Grilla_de_movimiento_19
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -40,7 +100,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -71,9 +131,453 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Grilla_de_movimiento_0
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 233
+        width: 33
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3db88dd99dd6c5ee0800000000000000
+      internalID: -1271020213401777197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grilla_de_movimiento_1
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 237
+        width: 33
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8950f1bcb9b89ac00800000000000000
+      internalID: 912413900763235736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grilla_de_movimiento_2
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 235
+        width: 33
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a298ea61ad0f45430800000000000000
+      internalID: 3770903607490021674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grilla_de_movimiento_3
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 234
+        width: 33
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23c891299aabe25f0800000000000000
+      internalID: -779480448025129934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grilla_de_movimiento_4
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 237
+        width: 33
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83f2f1e2e927546a0800000000000000
+      internalID: -6465635666316284104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grilla_de_movimiento_5
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 161
+        width: 37
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69d7ff31a34e9f990800000000000000
+      internalID: -7351593978610877034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grilla_de_movimiento_6
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 159
+        width: 37
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7e4b57d65ae4bf80800000000000000
+      internalID: -8091584971776766341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grilla_de_movimiento_7
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 158
+        width: 37
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 160ae8ee302838c80800000000000000
+      internalID: -8321664733051707295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grilla_de_movimiento_8
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 162
+        width: 37
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cc433c25cc833750800000000000000
+      internalID: 6283520683589979333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grilla_de_movimiento_9
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 161
+        width: 37
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 147992895a433ba50800000000000000
+      internalID: 6535625370071832385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grilla_de_movimiento_10
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 78
+        width: 37
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23055a0d8a4a626a0800000000000000
+      internalID: -6474306369336553422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grilla_de_movimiento_11
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 79
+        width: 37
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8637e05d97ebe8090800000000000000
+      internalID: -8030271655080201368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grilla_de_movimiento_12
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 78
+        width: 37
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb5c02255d62da830800000000000000
+      internalID: 4083963134742676927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grilla_de_movimiento_13
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 78
+        width: 37
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1d509e94bee16b00800000000000000
+      internalID: 820199066679926043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grilla_de_movimiento_14
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 79
+        width: 37
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ce71ce8b415c9a20800000000000000
+      internalID: 3070418430919278281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grilla_de_movimiento_15
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 9
+        width: 32
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0a91f5dcd190f080800000000000000
+      internalID: -9155657664776005106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grilla_de_movimiento_16
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 10
+        width: 32
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 893822aab6a8e02a0800000000000000
+      internalID: -6769320994870754408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grilla_de_movimiento_17
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 9
+        width: 32
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c176b68d4406e0220800000000000000
+      internalID: 2454004695768459036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grilla_de_movimiento_18
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 10
+        width: 32
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 069798c876e974440800000000000000
+      internalID: 4920075285502196064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grilla_de_movimiento_19
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 9
+        width: 32
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d65d2ca59d2234120800000000000000
+      internalID: 2396797743617201517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
