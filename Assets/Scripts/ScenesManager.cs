@@ -40,7 +40,7 @@ public class ScenesManager : MonoBehaviour
     {
         if(actualScene == "Credits" || actualScene == "HowToPlay" || actualScene == "FinalScene")
         {
-            if (Input.GetKeyDown(KeyCode.Escape) || Input.GetKeyDown(KeyCode.Space))
+            if (Input.GetKeyDown(KeyCode.Escape) || Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.KeypadEnter) || Input.GetKeyDown(KeyCode.E) || Input.GetKeyDown(KeyCode.Return) || Input.GetKeyDown(KeyCode.Return))
             {
                 SceneManager.LoadScene("Menu");
             }
@@ -53,8 +53,8 @@ public class ScenesManager : MonoBehaviour
         {
             if (timeToChangeScene >= 3.0f)
             {
-                SceneManager.LoadScene("Level 1");
                 timeToChangeScene = 0.0f;
+                SceneManager.LoadScene("Level 1");              
             }
         }
     }
