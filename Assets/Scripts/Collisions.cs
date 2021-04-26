@@ -23,7 +23,7 @@ public class Collisions : MonoBehaviour
 
         if (collision.gameObject.tag == ("ghost"))
         {
-            PlayerManager.instancePlayerManager.health--;
+            this.GetComponent<PlayerManager>().health -= 10;
             
         }
 

@@ -31,6 +31,7 @@ public class ActivateTrap : MonoBehaviour
         {
             this.enabled = false;
             this.GetComponent<SpriteRenderer>().enabled = false;
+            this.GetComponent<BoxCollider2D>().enabled = false;
         }
     }
 }
