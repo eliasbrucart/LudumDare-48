@@ -23,7 +23,8 @@ public class Collisions : MonoBehaviour
 
         if (collision.gameObject.tag == ("ghost"))
         {
-            this.GetComponent<PlayerManager>().health -= 10;
+            Debug.Log("Choca con fantasma");
+            PlayerManager.instancePlayerManager.health -= 10;
             
         }
 
@@ -34,6 +35,7 @@ public class Collisions : MonoBehaviour
 
         if (collision.gameObject.tag == ("grave random"))
         {
+
             this.GetComponent<Interactions>().ThisTimeRandom = 0;
         }
     }
