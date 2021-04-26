@@ -18,10 +18,11 @@ public class GameManager : MonoBehaviour
         {
             instanceGameManager = this;
         }
+
+        DontDestroyOnLoad(this.gameObject);
     }
     void Start()
     {
-        
     }
 
     void Update()
