@@ -29,7 +29,6 @@ public class UIManager : MonoBehaviour
         smallTorch.text = "" + PlayerManager.instancePlayerManager.smallTorch;
         freezeGhost.text = "" + PlayerManager.instancePlayerManager.freezeGhost;
         bigTorch.text = "" + PlayerManager.instancePlayerManager.bigTorch;
-        liberateTrap.text = "" + PlayerManager.instancePlayerManager.liberateTrap;
 
         if (npc.canListen == true)
         {

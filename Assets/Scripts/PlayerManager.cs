@@ -16,7 +16,6 @@ public class PlayerManager : MonoBehaviour
     public float smallTorch;
     public float freezeGhost;
     public float bigTorch;
-    public float liberateTrap;
 
     public Image keyImage;
     [SerializeField] private string actualScene;

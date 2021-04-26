@@ -23,7 +23,6 @@ public class Interactions : MonoBehaviour
     public float porcentajeCargarAntorchaPequeña;
     public float porcentajeCargarCongelarFantasmas;
     public float porcentajeCargarAntorchaGrande;
-    public float porcentajeCargarLiberarseDeTrampa;
     public float CantidadDeRecargasAlRecargarTodasLasMagias;
 
     public AudioSource torch;
@@ -38,6 +37,7 @@ public class Interactions : MonoBehaviour
     public int ThisTimeRandom = 0;
     void Start()
     {
+
         interactionCollision = this.GetComponent<Collisions>();
         manager = this.GetComponent<PlayerManager>();
         baseRadius = fog.GetFloat("SphereColiderRadius");
@@ -102,7 +102,7 @@ public class Interactions : MonoBehaviour
                     porcentajeCargarAntorchaPequeña += porcentajeCargarTodosLosHechizos;
                     porcentajeCargarCongelarFantasmas += porcentajeCargarAntorchaPequeña;
                     porcentajeCargarAntorchaGrande += porcentajeCargarCongelarFantasmas;
-                    porcentajeCargarLiberarseDeTrampa += porcentajeCargarAntorchaGrande;
+                   
 
 
                     if (ThisTimeRandom < porcentajeNada)
@@ -121,7 +121,6 @@ public class Interactions : MonoBehaviour
                         manager.smallTorch += CantidadDeRecargasAlRecargarTodasLasMagias;
                         manager.freezeGhost += CantidadDeRecargasAlRecargarTodasLasMagias;
                         manager.bigTorch += CantidadDeRecargasAlRecargarTodasLasMagias;
-                        manager.liberateTrap += CantidadDeRecargasAlRecargarTodasLasMagias;
                     }
                     else if (ThisTimeRandom < porcentajeCargarAntorchaPequeña)
                     {
@@ -144,26 +143,14 @@ public class Interactions : MonoBehaviour
                         manager.bigTorch++;
                     }
                     else
-                    if (ThisTimeRandom < porcentajeCargarLiberarseDeTrampa)
-                    {
-                        recharge.Play();
-                        Debug.Log("Recargo LiberarseDeTrampa");
-                        manager.liberateTrap++;
-                    }
+                    
                     grave.Play();
                     break;
 
                 case "trap":
-                    if (manager.liberateTrap >= 1)
-                    {
+
                         trap.Play();
-                        manager.liberateTrap -= 1;
                         this.GetComponent<PlayerMovment>().enabled = true;
-                    }
-                    else
-                    {
-                        noCharge.Play();
-                    }
                     break;
 
                 case "NPC":
