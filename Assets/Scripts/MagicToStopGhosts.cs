@@ -21,18 +21,19 @@ public class MagicToStopGhosts : MonoBehaviour
     }
     void Update()
     {
+        Ghost = GameObject.FindGameObjectsWithTag("ghost");
         if (isActive == true)
         {
             time -= Time.deltaTime;
         }
-        if (Input.GetKeyDown(KeyCode.Alpha2))
+        if (Input.GetKeyDown(KeyCode.W))
         {
             if (manager.freezeGhost >= 1)
             {
                 freezeGhost.Play();
                 isActive = true;
                 manager.freezeGhost -= 1;
-                for (int i = 0; i < 10; i++)
+                for (int i = 0; i < Ghost.Length; i++)
                 {
                     Ghost[i].GetComponent<GhostMovment>().enabled = false;
                 }

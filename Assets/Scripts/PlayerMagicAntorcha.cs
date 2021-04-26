@@ -29,7 +29,7 @@ public class PlayerMagicAntorcha : MonoBehaviour
         {
             time -= Time.deltaTime;
         }
-        if (Input.GetKeyDown(KeyCode.Alpha1))
+        if (Input.GetKeyDown(KeyCode.Q))
         {           
             if (manager.smallTorch >= 1)
             {

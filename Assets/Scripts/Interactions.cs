@@ -15,6 +15,8 @@ public class Interactions : MonoBehaviour
     bool isActive = false;
     float baseRadius;
 
+    public GameObject Fantasma;
+
     public float porcentajeNada;
     public float porcentajeFantasmaMalo;
     public float porcentajeCargarTodosLosHechizos;
@@ -32,12 +34,15 @@ public class Interactions : MonoBehaviour
     public AudioSource recharge;
 
     public GameObject textBox;
+
+    public int ThisTimeRandom = 0;
     void Start()
     {
         interactionCollision = this.GetComponent<Collisions>();
         manager = this.GetComponent<PlayerManager>();
         baseRadius = fog.GetFloat("SphereColiderRadius");
         time = TimeToGoBackToNormalSize;
+        ThisTimeRandom = 0;
     }
 
     // Update is called once per frame
@@ -83,11 +88,13 @@ public class Interactions : MonoBehaviour
 
                 case "grave random":
                     Debug.Log("Entró");
-                    interactionCollision.ActualCollisionObject.SetActive(false);
+                    interactionCollision.ActualCollisionObject.GetComponent<BoxCollider2D>().enabled = false;
+                    interactionCollision.ActualCollisionObject.GetComponent<SpriteRenderer>().enabled = false;
+                    //SetActive(false);
                     isActive = true;
-                    int queSale = Random.Range(1, 100);
-
-                    Debug.Log("el random es" + queSale);
+                   
+                    ThisTimeRandom = Random.Range(1, 100);
+                    Debug.Log("el random es" + ThisTimeRandom);
 
 
                     porcentajeFantasmaMalo += porcentajeNada;
@@ -98,15 +105,15 @@ public class Interactions : MonoBehaviour
                     porcentajeCargarLiberarseDeTrampa += porcentajeCargarAntorchaGrande;
 
 
-                    if (queSale < porcentajeNada)
+                    if (ThisTimeRandom < porcentajeNada)
                     {
                         Debug.Log("dio nada");
                     }
-                    else if (queSale < porcentajeFantasmaMalo)
+                    else if (ThisTimeRandom < porcentajeFantasmaMalo)
                     {
-                        Debug.Log("hay que poner un fantasma y activarlo");                        
+                        Instantiate(Fantasma);                      
                     }
-                    else if (queSale < porcentajeCargarTodosLosHechizos)
+                    else if (ThisTimeRandom < porcentajeCargarTodosLosHechizos)
                     {
                         Debug.Log("Recargo magia");
                         recharge.Play();
@@ -115,28 +122,28 @@ public class Interactions : MonoBehaviour
                         manager.bigTorch += CantidadDeRecargasAlRecargarTodasLasMagias;
                         manager.liberateTrap += CantidadDeRecargasAlRecargarTodasLasMagias;
                     }
-                    else if (queSale < porcentajeCargarAntorchaPequeña)
+                    else if (ThisTimeRandom < porcentajeCargarAntorchaPequeña)
                     {
                         recharge.Play();
                         Debug.Log("Recargo antorchaChica");
                         manager.smallTorch++;
                     }
                     else
-                    if (queSale < porcentajeCargarCongelarFantasmas)
+                    if (ThisTimeRandom < porcentajeCargarCongelarFantasmas)
                     {
                         recharge.Play();
                         Debug.Log("Recargo freeze");
                         manager.freezeGhost++;
                     }
                     else
-                    if (queSale < porcentajeCargarAntorchaGrande)
+                    if (ThisTimeRandom < porcentajeCargarAntorchaGrande)
                     {
                         recharge.Play();
                         Debug.Log("Recargo AntorchaGrande");
                         manager.bigTorch++;
                     }
                     else
-                    if (queSale < porcentajeCargarLiberarseDeTrampa)
+                    if (ThisTimeRandom < porcentajeCargarLiberarseDeTrampa)
                     {
                         recharge.Play();
                         Debug.Log("Recargo LiberarseDeTrampa");

@@ -31,5 +31,10 @@ public class Collisions : MonoBehaviour
     private void OnTriggerExit2D(Collider2D collision)
     {
         itemColliding = "";
+
+        if (collision.gameObject.tag == ("grave random"))
+        {
+            this.GetComponent<Interactions>().ThisTimeRandom = 0;
+        }
     }
 }

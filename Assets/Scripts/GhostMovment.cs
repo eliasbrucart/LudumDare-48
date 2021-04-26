@@ -18,6 +18,9 @@ public class GhostMovment : MonoBehaviour
     void Start()
     {
         actualRandom = getRandomDirection();
+        Player = GameObject.Find("Player");
+        Player = GameObject.FindGameObjectWithTag("Player");
+        Player = GameObject.FindWithTag("Player");
     }
 
     void Update()
