@@ -1487,6 +1487,11 @@ PrefabInstance:
       propertyPath: keyImage
       value: 
       objectReference: {fileID: 610894486}
+    - target: {fileID: 3010822759660002157, guid: 573383ee32e728042a06fcc3d3210d62,
+        type: 3}
+      propertyPath: actualScene
+      value: Level 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3010822759660002158, guid: 573383ee32e728042a06fcc3d3210d62,
         type: 3}
       propertyPath: time

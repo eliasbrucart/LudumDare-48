@@ -17,6 +17,12 @@ TextureImporter:
   - first:
       213: 4221554868473159158
     second: HUD_assets_5
+  - first:
+      213: -2957398342379975368
+    second: HUD_assets_3
+  - first:
+      213: -6169827359507158021
+    second: HUD_assets_6
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -105,8 +111,8 @@ TextureImporter:
       name: HUD_assets_0
       rect:
         serializedVersion: 2
-        x: 7
-        y: 13
+        x: 8
+        y: 22
         width: 64
         height: 64
       alignment: 0
@@ -126,8 +132,8 @@ TextureImporter:
       name: HUD_assets_1
       rect:
         serializedVersion: 2
-        x: 98
-        y: 14
+        x: 99
+        y: 23
         width: 55
         height: 62
       alignment: 0
@@ -147,8 +153,8 @@ TextureImporter:
       name: HUD_assets_2
       rect:
         serializedVersion: 2
-        x: 170
-        y: 14
+        x: 171
+        y: 23
         width: 55
         height: 62
       alignment: 0
@@ -168,8 +174,8 @@ TextureImporter:
       name: HUD_assets_4
       rect:
         serializedVersion: 2
-        x: 295
-        y: 19
+        x: 296
+        y: 28
         width: 44
         height: 52
       alignment: 0
@@ -189,10 +195,10 @@ TextureImporter:
       name: HUD_assets_5
       rect:
         serializedVersion: 2
-        x: 242
-        y: 15
-        width: 35
-        height: 61
+        x: 356
+        y: 24
+        width: 53
+        height: 53
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -202,6 +208,48 @@ TextureImporter:
       bones: []
       spriteID: 6fdd92f39c9f59a30800000000000000
       internalID: 4221554868473159158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HUD_assets_3
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 63
+        width: 11
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83dcc1760e535f6d0800000000000000
+      internalID: -2957398342379975368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HUD_assets_6
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 24
+        width: 35
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfbe617a4be506aa0800000000000000
+      internalID: -6169827359507158021
       vertices: []
       indices: 
       edges: []
