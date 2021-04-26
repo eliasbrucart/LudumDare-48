@@ -6,12 +6,12 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/HowToPlay.unity
-    guid: 186e13ae46bb0ad4a8463b76d38be988
-  - enabled: 1
     path: Assets/Scenes/Menu.unity
     guid: dbb3cd8bc3c743b48a65557235c2869f
   - enabled: 1
+    path: Assets/Scenes/HowToPlay.unity
+    guid: 186e13ae46bb0ad4a8463b76d38be988
+  - enabled: 0
     path: Assets/Scenes/SampleScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
@@ -29,4 +29,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Intro.unity
     guid: 2a72f4b60f38e1b4390255c66c696ee9
+  - enabled: 1
+    path: Assets/Scenes/SoundCredits.unity
+    guid: 9106cf864b029b14e91bbddd722675a2
   m_configObjects: {}

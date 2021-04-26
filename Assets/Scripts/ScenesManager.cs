@@ -38,11 +38,18 @@ public class ScenesManager : MonoBehaviour
 
     public void GoToMenu()
     {
-        if(actualScene == "Credits" || actualScene == "HowToPlay" || actualScene == "FinalScene")
+        if(actualScene == "HowToPlay" || actualScene == "FinalScene" || actualScene == "SoundCredits")
         {
             if (Input.GetKeyDown(KeyCode.Escape) || Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.KeypadEnter) || Input.GetKeyDown(KeyCode.E) || Input.GetKeyDown(KeyCode.Return) || Input.GetKeyDown(KeyCode.Return))
             {
                 SceneManager.LoadScene("Menu");
+            }
+        }
+        if (actualScene == "Credits")
+        {
+            if (Input.GetKeyDown(KeyCode.Escape) || Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.KeypadEnter) || Input.GetKeyDown(KeyCode.E) || Input.GetKeyDown(KeyCode.Return) || Input.GetKeyDown(KeyCode.Return))
+            {
+                SceneManager.LoadScene("SoundCredits");
             }
         }
     }
